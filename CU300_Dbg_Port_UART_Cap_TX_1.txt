@@ -1,0 +1,480 @@
+[appln] Build Time: Mar 10 2020 13:29:50
+[appln] Calling timer function
+[VD-sysmon] 0
+[VD] MAC = 80c5f244acf2; DSN = AC000W003774526
+[ada] 3595 i m client: ADA 1.3.7-beta wmsdk-3.5 2018-09-06 18:15:52 f50766e
+[ada] 3756 i m mod: setup mode
+[VD] failed zero counts: 0
+[ada] 5726 i w wifi: connecting to SSID <My SSID> sec WPA2_Personal signal -20
+[ada] 10311 i w wifi: join succeeded
+[VD] 10372 Received Data: A5 00 00 00 06 2D 00 00 00 00 1E 00 00 01 52 FA 
+[appln] Connected to Home Network with IP address = <redacted>
+[ada] 10514 i w client: ada_client_up: IP <redacted>
+oem_host_version, 0
+OTA_FW_VERSION, 0
+GET_WiFi_FW_Version, 0
+GET_Error_Code, 0
+GET_Battery_Capacity, 0
+GET_RSSI, 0
+GET_Charging_Status, 0
+SET_Reset_Factory_Defaults, -7
+demo: prop_send_by_name: send of SET_Reset_Factory_Defaults: err -7
+SET_Reset_WiFi, -7
+demo: prop_send_by_name: send of SET_Reset_WiFi: err -7
+[VD] 7 <My SSID>
+[ada] 10549 i c client: get DSN AC000W003774526
+[VD] 10556 Write Data: A5 EB 02 ED FA 
+GET_Operating_Mode, 0
+GET_Battery_Capacity, 0
+[ada] 11534 W c client: http_client_req: err -1
+[ada] 08-12T07:08:52.500 i c client: clock was 2018-01-01T00:00:08 UTC
+[ada] 08-12T07:08:52.503 i c client: clock now 2020-08-12T07:08:52 UTC
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[ada] 08-12T07:08:52.531 i c client: get DSN AC000W003774526
+[VD-sch] Schedule 0 Fired: 00:00:00
+[VD] Before NTP: 3 2020 7 12 07:08:53
+[VD] After NTP: 3 2020 7 12 07:08:52
+[ada] 08-12T07:08:53.255 i c client: module name "Dorkbot" key 25418972.
+[ada] 08-12T07:08:53.258 i notify: ANS server ans-2-field.aylanetworks.com at 54.175.176.225
+[ada] 08-12T07:08:53.567 i c client: ANS check event
+[ada] 08-12T07:08:55.963 i c client: listen enabled
+ayla_int_set: cloud set ReportPeriodDock to 00000014
+ayla_int_set: cloud set ReportPeriodUndocked to 0000000A
+ayla_bool_set: SET_Find_Device set to 0
+ayla_int_set: cloud set SET_Operating_Mode to 00000000
+ayla_bool_set: SET_Reset_Factory_Defaults set to 0
+ayla_bool_set: SET_Reset_WiFi set to 0
+[VD] 16396 Write Data: A5 EC 00 EC FA 
+[VD] 16408 Mode in Sync, job done
+[VD] 16421 Write Data: A5 E1 00 E1 FA 
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[VD-sch] No Schedule...
+ result: 0
+[VD] 16491 Received Data: A5 00 00 00 06 2D 00 00 00 00 1E 00 00 01 52 FA 
+[VD] 26614 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:09:12
+[VD] SchTime: 3 2020 7 12 07:09:12
+[VD] 36737 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 43120 Write Data: A5 EB 02 ED FA 
+[VD] 46850 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 56963 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:09:42
+[VD] SchTime: 3 2020 7 12 07:09:42
+[VD] 67086 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+GET_RSSI, 0
+[VD] 77199 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 84122 Write Data: A5 EB 02 ED FA 
+[VD] 87322 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:10:12
+[VD] SchTime: 3 2020 7 12 07:10:12
+[VD] 97435 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 107548 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 117671 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:10:42
+[VD] SchTime: 3 2020 7 12 07:10:42
+[VD] 125134 Write Data: A5 EB 02 ED FA 
+[VD] 127784 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 137897 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 148020 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:11:12
+[VD] SchTime: 3 2020 7 12 07:11:12
+[VD] 158133 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 166136 Write Data: A5 EB 02 ED FA 
+[VD] 168246 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 178369 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:11:42
+[VD] SchTime: 3 2020 7 12 07:11:42
+[VD] 188492 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 198615 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 207138 Write Data: A5 EB 02 ED FA 
+[VD] 208738 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:12:12
+[VD] SchTime: 3 2020 7 12 07:12:12
+[VD] 218851 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 228974 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 239097 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:12:42
+[VD] SchTime: 3 2020 7 12 07:12:42
+[VD] 248140 Write Data: A5 EB 02 ED FA 
+[VD] 249220 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 259343 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 269466 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:13:12
+[VD] SchTime: 3 2020 7 12 07:13:12
+[VD] 279589 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 289142 Write Data: A5 EB 02 ED FA 
+[VD] 289712 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 299835 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:13:42
+[VD] SchTime: 3 2020 7 12 07:13:42
+[VD] 309958 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 320081 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 330144 Write Data: A5 EB 02 ED FA 
+[VD] 330204 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:14:12
+[VD] SchTime: 3 2020 7 12 07:14:12
+[VD] 340327 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 350450 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 360573 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:14:42
+[VD] SchTime: 3 2020 7 12 07:14:42
+[VD] 370696 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 371159 Write Data: A5 EB 02 ED FA 
+[VD] 380819 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 390942 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:15:12
+[VD] SchTime: 3 2020 7 12 07:15:12
+[VD] 401065 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 411188 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 412161 Write Data: A5 EB 02 ED FA 
+[VD] 421321 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:15:42
+[VD] SchTime: 3 2020 7 12 07:15:42
+[VD] 431444 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 441567 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 451690 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:16:12
+[VD] SchTime: 3 2020 7 12 07:16:12
+[VD] 453163 Write Data: A5 EB 02 ED FA 
+[VD] 461813 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 471936 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 482069 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:16:42
+[VD] SchTime: 3 2020 7 12 07:16:42
+[VD] 492192 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 494165 Write Data: A5 EB 02 ED FA 
+[VD] 502315 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:17:12
+[VD] SchTime: 3 2020 7 12 07:17:12
+[VD] 512438 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 522561 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 532674 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 535167 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:17:42
+[VD] SchTime: 3 2020 7 12 07:17:42
+[VD] 542797 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 552920 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 563043 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:18:12
+[VD] SchTime: 3 2020 7 12 07:18:12
+[VD] 573166 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 576179 Write Data: A5 EB 02 ED FA 
+[VD] 583279 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 593402 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:18:42
+[VD] SchTime: 3 2020 7 12 07:18:42
+[VD] 603525 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 613638 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 617181 Write Data: A5 EB 02 ED FA 
+[VD] 618551 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] 628664 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:19:12
+[VD] SchTime: 3 2020 7 12 07:19:12
+[VD] 658177 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:19:42
+[VD] SchTime: 3 2020 7 12 07:19:42
+[VD] 662507 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+GET_RSSI, 0
+[VD] AylaTime: 3 2020 7 12 07:20:12
+[VD] SchTime: 3 2020 7 12 07:20:12
+[VD] 699190 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:20:42
+[VD] SchTime: 3 2020 7 12 07:20:42
+[VD] 740190 Write Data: A5 EB 02 ED FA 
+[VD] 744620 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:21:12
+[VD] SchTime: 3 2020 7 12 07:21:12
+[VD] 781193 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:21:42
+[VD] SchTime: 3 2020 7 12 07:21:42
+[VD] AylaTime: 3 2020 7 12 07:22:12
+[VD] SchTime: 3 2020 7 12 07:22:12
+[VD] 822203 Write Data: A5 EB 02 ED FA 
+[VD] 826733 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:22:42
+[VD] SchTime: 3 2020 7 12 07:22:42
+[VD] 863206 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:23:12
+[VD] SchTime: 3 2020 7 12 07:23:12
+[VD] AylaTime: 3 2020 7 12 07:23:42
+[VD] SchTime: 3 2020 7 12 07:23:42
+[VD] 904206 Write Data: A5 EB 02 ED FA 
+[VD] 908836 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:24:12
+[VD] SchTime: 3 2020 7 12 07:24:12
+[VD] 945209 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:24:42
+[VD] SchTime: 3 2020 7 12 07:24:42
+[VD] 986219 Write Data: A5 EB 02 ED FA 
+[VD] 990949 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:25:12
+[VD] SchTime: 3 2020 7 12 07:25:12
+[VD] AylaTime: 3 2020 7 12 07:25:42
+[VD] SchTime: 3 2020 7 12 07:25:42
+[VD] 1027222 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:26:12
+[VD] SchTime: 3 2020 7 12 07:26:12
+[VD] 1068222 Write Data: A5 EB 02 ED FA 
+[VD] 1073052 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:26:42
+[VD] SchTime: 3 2020 7 12 07:26:42
+[VD] 1109225 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:27:12
+[VD] SchTime: 3 2020 7 12 07:27:12
+[VD] AylaTime: 3 2020 7 12 07:27:42
+[VD] SchTime: 3 2020 7 12 07:27:42
+[VD] 1150235 Write Data: A5 EB 02 ED FA 
+[VD] 1155165 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:28:12
+[VD] SchTime: 3 2020 7 12 07:28:12
+[VD] 1191238 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:28:42
+[VD] SchTime: 3 2020 7 12 07:28:42
+[VD] AylaTime: 3 2020 7 12 07:29:12
+[VD] SchTime: 3 2020 7 12 07:29:12
+[VD] 1232238 Write Data: A5 EB 02 ED FA 
+[VD] 1237271 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:29:42
+[VD] SchTime: 3 2020 7 12 07:29:42
+GET_RSSI, 0
+[VD] 1273244 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:30:12
+[VD] SchTime: 3 2020 7 12 07:30:12
+[VD] 1314244 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:30:42
+[VD] SchTime: 3 2020 7 12 07:30:42
+[VD] AylaTime: 3 2020 7 12 07:31:12
+[VD] SchTime: 3 2020 7 12 07:31:12
+[VD] 1355254 Write Data: A5 EB 02 ED FA 
+[VD] 1355374 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:31:42
+[VD] SchTime: 3 2020 7 12 07:31:42
+[VD] 1396257 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:32:12
+[VD] SchTime: 3 2020 7 12 07:32:12
+[VD] 1437257 Write Data: A5 EB 02 ED FA 
+[VD] 1437477 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:32:42
+[VD] SchTime: 3 2020 7 12 07:32:42
+[VD] AylaTime: 3 2020 7 12 07:33:12
+[VD] SchTime: 3 2020 7 12 07:33:12
+[VD] 1478270 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:33:42
+[VD] SchTime: 3 2020 7 12 07:33:42
+[VD] 1519270 Write Data: A5 EB 02 ED FA 
+[VD] 1519590 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:34:12
+[VD] SchTime: 3 2020 7 12 07:34:12
+[VD] 1560273 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:34:42
+[VD] SchTime: 3 2020 7 12 07:34:42
+[VD] AylaTime: 3 2020 7 12 07:35:12
+[VD] SchTime: 3 2020 7 12 07:35:12
+[VD] 1601273 Write Data: A5 EB 02 ED FA 
+[VD] 1601693 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:35:42
+[VD] SchTime: 3 2020 7 12 07:35:42
+[VD] 1642276 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:36:12
+[VD] SchTime: 3 2020 7 12 07:36:12
+[VD] AylaTime: 3 2020 7 12 07:36:42
+[VD] SchTime: 3 2020 7 12 07:36:42
+[VD] 1683286 Write Data: A5 EB 02 ED FA 
+[VD] 1683806 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:37:12
+[VD] SchTime: 3 2020 7 12 07:37:12
+[VD] 1724289 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:37:42
+[VD] SchTime: 3 2020 7 12 07:37:42
+[VD] 1765289 Write Data: A5 EB 02 ED FA 
+[VD] 1765909 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:38:12
+[VD] SchTime: 3 2020 7 12 07:38:12
+[VD] AylaTime: 3 2020 7 12 07:38:42
+[VD] SchTime: 3 2020 7 12 07:38:42
+[VD] 1806302 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:39:12
+[VD] SchTime: 3 2020 7 12 07:39:12
+[VD] 1847302 Write Data: A5 EB 02 ED FA 
+[VD] 1848022 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:39:42
+[VD] SchTime: 3 2020 7 12 07:39:42
+GET_RSSI, 0
+[VD] 1888305 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:40:12
+[VD] SchTime: 3 2020 7 12 07:40:12
+[VD] AylaTime: 3 2020 7 12 07:40:42
+[VD] SchTime: 3 2020 7 12 07:40:42
+[VD] 1929315 Write Data: A5 EB 02 ED FA 
+[VD] 1930135 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:41:12
+[VD] SchTime: 3 2020 7 12 07:41:12
+[VD] 1970318 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:41:42
+[VD] SchTime: 3 2020 7 12 07:41:42
+[VD] 2011318 Write Data: A5 EB 02 ED FA 
+[VD] 2012238 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:42:12
+[VD] SchTime: 3 2020 7 12 07:42:12
+[VD] AylaTime: 3 2020 7 12 07:42:42
+[VD] SchTime: 3 2020 7 12 07:42:42
+[VD] 2052321 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:43:12
+[VD] SchTime: 3 2020 7 12 07:43:12
+[VD] 2093321 Write Data: A5 EB 02 ED FA 
+[VD] 2094341 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:43:42
+[VD] SchTime: 3 2020 7 12 07:43:42
+[VD] AylaTime: 3 2020 7 12 07:44:12
+[VD] SchTime: 3 2020 7 12 07:44:12
+[VD] 2134334 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:44:42
+[VD] SchTime: 3 2020 7 12 07:44:42
+[VD] 2175334 Write Data: A5 EB 02 ED FA 
+[VD] 2176454 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:45:12
+[VD] SchTime: 3 2020 7 12 07:45:12
+[VD] 2216337 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:45:42
+[VD] SchTime: 3 2020 7 12 07:45:42
+[VD] AylaTime: 3 2020 7 12 07:46:12
+[VD] SchTime: 3 2020 7 12 07:46:12
+[VD] 2257347 Write Data: A5 EB 02 ED FA 
+[VD] 2258567 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:46:42
+[VD] SchTime: 3 2020 7 12 07:46:42
+[VD] 2298350 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:47:12
+[VD] SchTime: 3 2020 7 12 07:47:12
+[VD] 2339350 Write Data: A5 EB 02 ED FA 
+[VD] 2340670 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:47:42
+[VD] SchTime: 3 2020 7 12 07:47:42
+[VD] AylaTime: 3 2020 7 12 07:48:12
+[VD] SchTime: 3 2020 7 12 07:48:12
+[VD] 2380353 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:48:42
+[VD] SchTime: 3 2020 7 12 07:48:42
+[VD] 2421363 Write Data: A5 EB 02 ED FA 
+[VD] 2422783 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:49:12
+[VD] SchTime: 3 2020 7 12 07:49:12
+[VD] AylaTime: 3 2020 7 12 07:49:42
+[VD] SchTime: 3 2020 7 12 07:49:42
+[VD] 2462366 Write Data: A5 EB 02 ED FA 
+GET_RSSI, 0
+[VD] AylaTime: 3 2020 7 12 07:50:12
+[VD] SchTime: 3 2020 7 12 07:50:12
+[VD] 2503366 Write Data: A5 EB 02 ED FA 
+[VD] 2504886 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:50:42
+[VD] SchTime: 3 2020 7 12 07:50:42
+[VD] 2544369 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:51:12
+[VD] SchTime: 3 2020 7 12 07:51:12
+[VD] AylaTime: 3 2020 7 12 07:51:42
+[VD] SchTime: 3 2020 7 12 07:51:42
+[VD] 2585379 Write Data: A5 EB 02 ED FA 
+[VD] 2586999 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:52:12
+[VD] SchTime: 3 2020 7 12 07:52:12
+[VD] 2626382 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:52:42
+[VD] SchTime: 3 2020 7 12 07:52:42
+[VD] 2667382 Write Data: A5 EB 02 ED FA 
+[VD] 2669102 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:53:12
+[VD] SchTime: 3 2020 7 12 07:53:12
+[VD] AylaTime: 3 2020 7 12 07:53:42
+[VD] SchTime: 3 2020 7 12 07:53:42
+[VD] 2708385 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:54:12
+[VD] SchTime: 3 2020 7 12 07:54:12
+[VD] 2749395 Write Data: A5 EB 02 ED FA 
+[VD] 2751215 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:54:42
+[VD] SchTime: 3 2020 7 12 07:54:42
+[VD] 2790398 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:55:12
+[VD] SchTime: 3 2020 7 12 07:55:12
+[VD] AylaTime: 3 2020 7 12 07:55:42
+[VD] SchTime: 3 2020 7 12 07:55:42
+[VD] 2831398 Write Data: A5 EB 02 ED FA 
+[VD] 2833318 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:56:12
+[VD] SchTime: 3 2020 7 12 07:56:12
+[VD] 2872401 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:56:42
+[VD] SchTime: 3 2020 7 12 07:56:42
+[VD] AylaTime: 3 2020 7 12 07:57:12
+[VD] SchTime: 3 2020 7 12 07:57:12
+[VD] 2913411 Write Data: A5 EB 02 ED FA 
+[VD] 2915431 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:57:42
+[VD] SchTime: 3 2020 7 12 07:57:42
+[VD] 2954414 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:58:12
+[VD] SchTime: 3 2020 7 12 07:58:12
+[VD] 2995414 Write Data: A5 EB 02 ED FA 
+[VD] 2997534 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 07:58:42
+[VD] SchTime: 3 2020 7 12 07:58:42
+[VD] AylaTime: 3 2020 7 12 07:59:12
+[VD] SchTime: 3 2020 7 12 07:59:12
+[VD] 3036417 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 07:59:42
+[VD] SchTime: 3 2020 7 12 07:59:42
+GET_RSSI, 0
+[VD] 3077427 Write Data: A5 EB 02 ED FA 
+[VD] 3079647 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 08:00:12
+[VD] SchTime: 3 2020 7 12 08:00:12
+[VD] 3118430 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 08:00:42
+[VD] SchTime: 3 2020 7 12 08:00:42
+[VD] AylaTime: 3 2020 7 12 08:01:12
+[VD] SchTime: 3 2020 7 12 08:01:12
+[VD] 3159430 Write Data: A5 EB 02 ED FA 
+[VD] 3161750 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 08:01:42
+[VD] SchTime: 3 2020 7 12 08:01:42
+[VD] 3200433 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 08:02:12
+[VD] SchTime: 3 2020 7 12 08:02:12
+[VD] 3241443 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 08:02:42
+[VD] SchTime: 3 2020 7 12 08:02:42
+[VD] 3243863 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 08:03:12
+[VD] SchTime: 3 2020 7 12 08:03:12
+[VD] 3282446 Write Data: A5 EB 02 ED FA 
+[VD] AylaTime: 3 2020 7 12 08:03:42
+[VD] SchTime: 3 2020 7 12 08:03:42
+[VD] 3323446 Write Data: A5 EB 02 ED FA 
+[VD] 3325966 Received Data: A5 00 00 00 06 2D 00 00 00 00 1D 00 00 01 51 FA 
+[VD] AylaTime: 3 2020 7 12 08:04:12
+[VD] SchTime: 3 2020 7 12 08:04:12
