@@ -1,4 +1,6 @@
 # Snark_Iun_Robot_Vacuum
+UPDATES 08/12/2020 At End:
+
 The objective is to take a Shark Ion RV750 robot vacuum, and perform some Steve Austin stuff to make it much more...
 
 The Shark ION RV750 is a pretty standard, no-frills, robot vacuum.
@@ -24,4 +26,13 @@ A wish would to also be able to implement a camera and open CV for object detect
 
 
 Oh yeah, and last of all.... I am a noob with much of this, and learning on the fly!
+
+UPDATES 08/12/2020:
+
+I worked with the CU300 WiFi module some more, and found a serial console on one of the ports... only problem is I seem to only have the receive side. What I thought would have been the transmit to the CU300 has a odd pulse sequence at startup that remindes me of an IR remote protocol, maybe Manchester?
+
+I have also made some progress on the flash dump from the SPI flash. 
+
+This blog has helped quite a bit: https://medium.com/@urish/inside-the-bulb-adventures-in-reverse-engineering-smart-bulb-firmware-1b81ce2694a6
+It seems that one of the segments of the Marvell firmware is obfuscated through some word reversal/swap routine. It looks simple at face value, but we shal see!
 
