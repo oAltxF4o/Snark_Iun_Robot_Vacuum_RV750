@@ -36,3 +36,7 @@ I have also made some progress on the flash dump from the SPI flash.
 This blog has helped quite a bit: https://medium.com/@urish/inside-the-bulb-adventures-in-reverse-engineering-smart-bulb-firmware-1b81ce2694a6
 It seems that one of the segments of the Marvell firmware is obfuscated through some word reversal/swap routine. It looks simple at face value, but we shal see!
 
+08/14/2020:
+
+For posterity sake, https://hackaday.io/project/167594/logs I may forget about this later. This seems to be using the somewhat same method as the Shark.
+
