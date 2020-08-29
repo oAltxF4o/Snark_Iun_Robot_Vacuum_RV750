@@ -6,7 +6,7 @@ UPDATES 08/29/2020 At End:
 The objective is to take a Shark Ion RV750 robot vacuum, and perform some Steve Austin stuff to make it much more...
 
 The Shark ION RV750 is a pretty standard, no-frills, robot vacuum.
-The brains of the system comes from a STM32F071VBT6 mcu, and the rest of the components on the board are of the standard variety of easy to find and inexpensive variety. 
+The brains of the system comes from a STM32F071VBT6 mcu, and the rest of the components on the board are of the standard variety of easy to find and inexpensive. 
 There is also an Azure Wireless CU300 daughter board connected through serial, but through my testing I found that it does not provide any support logic outside of interfacing with the Shark Clean App.
 
 My original idea was to extract the firmware from the STM32, but this proved to be a dead end I think.
