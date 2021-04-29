@@ -1,5 +1,6 @@
 
  # Snark_Iun_Robot_Vacuum
+UPDATES 04/29/2021 At End:
 UPDATES 08/12/2020 At End:
 UPDATES 08/29/2020 At End:
 
@@ -49,4 +50,6 @@ From what I can find, it seems like the RV750_N is functionally the same as the 
 More sleuthing online has revealed that the ECOVACS Deebot N79S is also based of the same design as the RV750_N.
 
 Working on the firmware side of things, I have only made a little progress on the obfuscated firmware. I may be on track to figuring out the header format. Going back the Shark AWS site I found that there are a lot of *.zip files, and they all contain un-encrypted firmware… it seems like they all might be for later models as there is mention of cameras for SLAM based Nav and Mapping.
+
+Started working on the project again, made some good discoveries, but still can't figure out the obfuscation of the firmware I am interested in. Added an example file that points to my target file.
 
