@@ -1,3 +1,6 @@
+Some great progress with an Ecovac Deebot N79 main board. I was able to dump almost all of the peripheral registers, and I can also dump SRAM. I know of two exploits I might be able to use to extract the firmware, and I am currently trying to get one to work.
+
+I also found out that the Dibea X500 (and maybe others in this brand) is also built on the same design as the Rv750 and N79... even though it looks very different.
 
  # Snark_Iun_Robot_Vacuum
 UPDATES 04/29/2021 At End:
