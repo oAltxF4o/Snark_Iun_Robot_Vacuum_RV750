@@ -1,0 +1,284 @@
+> reg r0 0x0801a400
+r0 (/32): 0x0801A400
+> reg r2 0x0801a400
+r2 (/32): 0x0801A400
+> reg r3 0x0801a400
+r3 (/32): 0x0801A400
+> reg r4 0x0801a400
+r4 (/32): 0x0801A400
+> reg r5 0x0801a400
+r5 (/32): 0x0801A400
+> reg r6 0x0801a400
+r6 (/32): 0x0801A400
+> reg r7 0x0801a400
+r7 (/32): 0x0801A400
+> reg r8 0x0801a400
+r8 (/32): 0x0801A400
+> reg r9 0x0801a400
+r9 (/32): 0x0801A400
+> reg r10 0x0801a400
+r10 (/32): 0x0801A400
+> reg r11 0x0801a400
+r11 (/32): 0x0801A400
+> reg r12 0x0801a400
+r12 (/32): 0x0801A400
+> reg sp 0x0801a400
+sp (/32): 0x0801A400
+> step
+stm32f0x.cpu -- clearing lockup after double fault
+target halted due to debug-request, current mode: Handler HardFault
+xPSR: 0x21000003 pc: 0xfffffffe msp: 0x0801a400
+Polling target stm32f0x.cpu failed, trying to reexamine
+stm32f0x.cpu: hardware has 4 breakpoints, 2 watchpoints
+> reg
+===== arm v7m registers
+(0) r0 (/32): 0x0801A400
+(1) r1 (/32): 0x00000042
+(2) r2 (/32): 0x0801A400
+(3) r3 (/32): 0x0801A400
+(4) r4 (/32): 0x0801A400
+(5) r5 (/32): 0x0801A400
+(6) r6 (/32): 0x0801A400
+(7) r7 (/32): 0x0801A400
+(8) r8 (/32): 0x0801A400
+(9) r9 (/32): 0x0801A400
+(10) r10 (/32): 0x0801A400
+(11) r11 (/32): 0x0801A400
+(12) r12 (/32): 0x0801A400
+(13) sp (/32): 0x0801A400
+(14) lr (/32): 0xFFFFFFF1
+(15) pc (/32): 0xFFFFFFFE
+(16) xPSR (/32): 0x21000003
+(17) msp (/32): 0x0801A400
+(18) psp (/32): 0xFFFFFFFC
+(19) primask (/1): 0x00
+(20) basepri (/8): 0x00
+(21) faultmask (/1): 0x00
+(22) control (/2): 0x00
+===== Cortex-M DWT registers
+(23) dwt_ctrl (/32)
+(24) dwt_cyccnt (/32)
+(25) dwt_0_comp (/32)
+(26) dwt_0_mask (/4)
+(27) dwt_0_function (/32)
+(28) dwt_1_comp (/32)
+(29) dwt_1_mask (/4)
+(30) dwt_1_function (/32)
+
+> step
+stm32f0x.cpu -- clearing lockup after double fault
+target halted due to debug-request, current mode: Handler HardFault
+xPSR: 0x41000003 pc: 0xfffffffe msp: 0x08000b2c
+Polling target stm32f0x.cpu failed, trying to reexamine
+stm32f0x.cpu: hardware has 4 breakpoints, 2 watchpoints
+> reg
+===== arm v7m registers
+(0) r0 (/32): 0x08000B2F
+(1) r1 (/32): 0x08000B2F
+(2) r2 (/32): 0x08000B2F
+(3) r3 (/32): 0x08000B2F
+(4) r4 (/32): 0x08000B2F
+(5) r5 (/32): 0x08000B2F
+(6) r6 (/32): 0x08000B2F
+(7) r7 (/32): 0x08000B2F
+(8) r8 (/32): 0x08000B2F
+(9) r9 (/32): 0x08000B2F
+(10) r10 (/32): 0x08000B2F
+(11) r11 (/32): 0x08000B2F
+(12) r12 (/32): 0x08000B2F
+(13) sp (/32): 0x08000B2C
+(14) lr (/32): 0xFFFFFFF9
+(15) pc (/32): 0xFFFFFFFE
+(16) xPSR (/32): 0x41000003
+(17) msp (/32): 0x08000B2C
+(18) psp (/32): 0xFFFFFFFC
+(19) primask (/1): 0x00
+(20) basepri (/8): 0x00
+(21) faultmask (/1): 0x00
+(22) control (/2): 0x00
+===== Cortex-M DWT registers
+(23) dwt_ctrl (/32)
+(24) dwt_cyccnt (/32)
+(25) dwt_0_comp (/32)
+(26) dwt_0_mask (/4)
+(27) dwt_0_function (/32)
+(28) dwt_1_comp (/32)
+(29) dwt_1_mask (/4)
+(30) dwt_1_function (/32)
+
+> step
+stm32f0x.cpu -- clearing lockup after double fault
+target halted due to debug-request, current mode: Handler HardFault
+xPSR: 0x61000003 pc: 0xfffffffe msp: 0x08000bd0
+Polling target stm32f0x.cpu failed, trying to reexamine
+stm32f0x.cpu: hardware has 4 breakpoints, 2 watchpoints
+> reg
+===== arm v7m registers
+(0) r0 (/32): 0x08000BD3
+(1) r1 (/32): 0x08000BD3
+(2) r2 (/32): 0x08000BD3
+(3) r3 (/32): 0x08000BD3
+(4) r4 (/32): 0x08000BD3
+(5) r5 (/32): 0x08000BD3
+(6) r6 (/32): 0x08000BD3
+(7) r7 (/32): 0x08000BD3
+(8) r8 (/32): 0x08000BD3
+(9) r9 (/32): 0xFFFFFFFF
+(10) r10 (/32): 0xFFFFFFFF
+(11) r11 (/32): 0xFFFFFFFF
+(12) r12 (/32): 0x00000003
+(13) sp (/32): 0x08000BD0
+(14) lr (/32): 0xFFFFFFF9
+(15) pc (/32): 0xFFFFFFFE
+(16) xPSR (/32): 0x61000003
+(17) msp (/32): 0x08000BD0
+(18) psp (/32): 0xFFFFFFFC
+(19) primask (/1): 0x00
+(20) basepri (/8): 0x00
+(21) faultmask (/1): 0x00
+(22) control (/2): 0x00
+===== Cortex-M DWT registers
+(23) dwt_ctrl (/32)
+(24) dwt_cyccnt (/32)
+(25) dwt_0_comp (/32)
+(26) dwt_0_mask (/4)
+(27) dwt_0_function (/32)
+(28) dwt_1_comp (/32)
+(29) dwt_1_mask (/4)
+(30) dwt_1_function (/32)
+
+> step
+stm32f0x.cpu -- clearing lockup after double fault
+target halted due to debug-request, current mode: Handler HardFault
+xPSR: 0x61000003 pc: 0xfffffffe msp: 0x08000bb4
+Polling target stm32f0x.cpu failed, trying to reexamine
+stm32f0x.cpu: hardware has 4 breakpoints, 2 watchpoints
+> reg
+===== arm v7m registers
+(0) r0 (/32): 0x08000BB5
+(1) r1 (/32): 0x08000BB5
+(2) r2 (/32): 0x08000BB5
+(3) r3 (/32): 0x08000BB5
+(4) r4 (/32): 0x08000BB5
+(5) r5 (/32): 0x08000BB5
+(6) r6 (/32): 0x0801A5F4
+(7) r7 (/32): 0xFFFFFFFF
+(8) r8 (/32): 0xFFFFFFFF
+(9) r9 (/32): 0xFFFFFFFF
+(10) r10 (/32): 0xFFFFFFFF
+(11) r11 (/32): 0xFFFFFFFF
+(12) r12 (/32): 0x00000003
+(13) sp (/32): 0x08000BB4
+(14) lr (/32): 0xFFFFFFF9
+(15) pc (/32): 0xFFFFFFFE
+(16) xPSR (/32): 0x61000003
+(17) msp (/32): 0x08000BB4
+(18) psp (/32): 0xFFFFFFFC
+(19) primask (/1): 0x00
+(20) basepri (/8): 0x00
+(21) faultmask (/1): 0x00
+(22) control (/2): 0x00
+===== Cortex-M DWT registers
+(23) dwt_ctrl (/32)
+(24) dwt_cyccnt (/32)
+(25) dwt_0_comp (/32)
+(26) dwt_0_mask (/4)
+(27) dwt_0_function (/32)
+(28) dwt_1_comp (/32)
+(29) dwt_1_mask (/4)
+(30) dwt_1_function (/32)
+
+> reg r4 0x08000bb5
+r4 (/32): 0x08000BB5
+> reg r6 0x08000bb5
+r6 (/32): 0x08000BB5
+> reg sp 0x08000bb5
+sp (/32): 0x08000BB5
+> step
+stm32f0x.cpu -- clearing lockup after double fault
+target halted due to debug-request, current mode: Handler HardFault
+xPSR: 0x21000003 pc: 0xfffffffe msp: 0x08000bb4
+Polling target stm32f0x.cpu failed, trying to reexamine
+stm32f0x.cpu: hardware has 4 breakpoints, 2 watchpoints
+> reg
+===== arm v7m registers
+(0) r0 (/32): 0x00000000
+(1) r1 (/32): 0x000003DA
+(2) r2 (/32): 0x00000019
+(3) r3 (/32): 0x000001F4
+(4) r4 (/32): 0x08000BB5
+(5) r5 (/32): 0x000003DA
+(6) r6 (/32): 0x08000BB5
+(7) r7 (/32): 0xFFFFFFFF
+(8) r8 (/32): 0xFFFFFFFF
+(9) r9 (/32): 0xFFFFFFFF
+(10) r10 (/32): 0xFFFFFFFF
+(11) r11 (/32): 0xFFFFFFFF
+(12) r12 (/32): 0xFFFFFFFF
+(13) sp (/32): 0x08000BB4
+(14) lr (/32): 0xFFFFFFF9
+(15) pc (/32): 0xFFFFFFFE
+(16) xPSR (/32): 0x21000003
+(17) msp (/32): 0x08000BB4
+(18) psp (/32): 0xFFFFFFFC
+(19) primask (/1): 0x00
+(20) basepri (/8): 0x00
+(21) faultmask (/1): 0x00
+(22) control (/2): 0x00
+===== Cortex-M DWT registers
+(23) dwt_ctrl (/32)
+(24) dwt_cyccnt (/32)
+(25) dwt_0_comp (/32)
+(26) dwt_0_mask (/4)
+(27) dwt_0_function (/32)
+(28) dwt_1_comp (/32)
+(29) dwt_1_mask (/4)
+(30) dwt_1_function (/32)
+
+> reg r4 0x08000bd3
+r4 (/32): 0x08000BD3
+> reg r6 0x08000bd3
+r6 (/32): 0x08000BD3
+> reg sp 0x08000bd3
+sp (/32): 0x08000BD3
+> step
+stm32f0x.cpu -- clearing lockup after double fault
+target halted due to debug-request, current mode: Handler HardFault
+xPSR: 0x61000003 pc: 0xfffffffe msp: 0x08000bd0
+Polling target stm32f0x.cpu failed, trying to reexamine
+stm32f0x.cpu: hardware has 4 breakpoints, 2 watchpoints
+> reg
+===== arm v7m registers
+(0) r0 (/32): 0x00000000
+(1) r1 (/32): 0x00000000
+(2) r2 (/32): 0x00000280
+(3) r3 (/32): 0x0000000A
+(4) r4 (/32): 0x08000BD3
+(5) r5 (/32): 0x00000001
+(6) r6 (/32): 0x08000BD3
+(7) r7 (/32): 0xFFFFFFFF
+(8) r8 (/32): 0xFFFFFFFF
+(9) r9 (/32): 0xFFFFFFFF
+(10) r10 (/32): 0xFFFFFFFF
+(11) r11 (/32): 0xFFFFFFFF
+(12) r12 (/32): 0x00000003
+(13) sp (/32): 0x08000BD0
+(14) lr (/32): 0xFFFFFFF9
+(15) pc (/32): 0xFFFFFFFE
+(16) xPSR (/32): 0x61000003
+(17) msp (/32): 0x08000BD0
+(18) psp (/32): 0xFFFFFFFC
+(19) primask (/1): 0x00
+(20) basepri (/8): 0x00
+(21) faultmask (/1): 0x00
+(22) control (/2): 0x00
+===== Cortex-M DWT registers
+(23) dwt_ctrl (/32)
+(24) dwt_cyccnt (/32)
+(25) dwt_0_comp (/32)
+(26) dwt_0_mask (/4)
+(27) dwt_0_function (/32)
+(28) dwt_1_comp (/32)
+(29) dwt_1_mask (/4)
+(30) dwt_1_function (/32)
+
